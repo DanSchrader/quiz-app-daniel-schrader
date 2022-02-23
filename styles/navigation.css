@@ -1,0 +1,25 @@
+.navigation {
+  position: fixed;
+  bottom: 0;
+  height: 48px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1px;
+  background-color: #555555;
+  box-shadow: 0 0 20px -5px black;
+}
+
+.navigation__button {
+  background-color: #212121;
+  border: 0;
+  border-top: solid #555555 1px;
+}
+
+.navigation__button--icon {
+  max-height: 30px;
+}
+
+.active {
+  background-color: #101010;
+}

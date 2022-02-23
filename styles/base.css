@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.background {
+  background-color: #323232;
+  height: 100vh;
+  display: grid;
+}
+
+.test {
+  margin-top: 100px;
+  background: #101010;
+  color: white;
+  font-family: Roboto;
+  font-size: large;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}

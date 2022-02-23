@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./index.js"></script>
+    <title>The Sweevil Quiz</title>
+  </head>
+  <body class="background">
+    <header class="title">
+      <img
+        class="title__logo"
+        src="./images/name-of-the-game.svg"
+        alt="The Sweevil Game"
+      />
+    </header>
+    <main class="page__home" data-js="homePage">
+      <h2 class="test">TEST-HOME</h2>
+    </main>
+    <main class="page__bookmark hidden" data-js="bookmarkPage">
+      <h2 class="test">TEST-BOOKMARK</h2>
+    </main>
+    <main class="page__create hidden" data-js="createPage">
+      <h2 class="test">TEST-CREATE</h2>
+    </main>
+    <main class="page__profile hidden" data-js="profilePage">
+      <h2 class="test">TEST-BOOKMARK</h2>
+    </main>
+    <footer class="navigation">
+      <button class="navigation__button active" data-js="homePageButton">
+        <img
+          class="navigation__button--icon"
+          src="./images/icon-question.svg"
+          alt="Navigation Home"
+        />
+      </button>
+      <button class="navigation__button" data-js="bookmarkPageButton">
+        <img
+          class="navigation__button--icon"
+          src="./images/icon-pineapple.svg"
+          alt="Navigation Bookmarks"
+        />
+      </button>
+      <button class="navigation__button" data-js="createPageButton">
+        <img
+          class="navigation__button--icon"
+          src="./images/icon-plus.svg"
+          alt="Navigation Create Question"
+        />
+      </button>
+      <button class="navigation__button" data-js="profilePageButton">
+        <img
+          class="navigation__button--icon"
+          src="./images/icon-profile.svg"
+          alt="Navigation Profile"
+        />
+      </button>
+    </footer>
+  </body>
+</html>

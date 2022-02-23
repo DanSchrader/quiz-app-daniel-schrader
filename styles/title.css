@@ -1,0 +1,17 @@
+.title {
+  position: fixed;
+  background-color: #212121;
+  height: 48px;
+  width: 100vw;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  border-bottom: solid #555555 1px;
+  box-shadow: 0 0 20px -5px black;
+}
+
+.title__logo {
+  max-height: 40px;
+  max-width: 320px;
+  margin: 0 10px 0 10px;
+}
