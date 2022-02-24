@@ -1,0 +1,37 @@
+.page__create__form {
+  display: grid;
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+  background: #323232;
+  border: solid #555555 1px;
+  box-shadow: 0 0 20px -5px black;
+  border-radius: 8px;
+}
+
+.page__create__form__label {
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.page__create__form__input {
+  background-color: #212121;
+  color: white;
+  font-family: Roboto;
+  border-radius: 5px;
+  border: solid #555555 1px;
+  /* box-shadow: 0 0 20px -10px black; */
+}
+
+.page__create__button {
+  margin-top: 20px;
+  padding: 5px 0;
+  background-color: #212121;
+  border: solid #555555 1px;
+  box-shadow: 0 0 20px -10px black;
+  border-radius: 5px;
+  color: white;
+}

@@ -24,6 +24,40 @@
     </main>
     <main class="page__create hidden" data-js="createPage">
       <h2 class="test">TEST-CREATE</h2>
+      <form class="page__create__form" data-js="form" autocomplete="off">
+        <label class="page__create__form__label" for="question-input"
+          >Question:</label
+        >
+        <textarea
+          class="page__create__form__input"
+          required
+          name="question"
+          id="question-input"
+          placeholder="Type your question here..."
+        ></textarea>
+
+        <label class="page__create__form__label" for="answer-input"
+          >Answer:</label
+        >
+        <textarea
+          class="page__create__form__input"
+          required
+          name="answer"
+          id="answer-input"
+          placeholder="Type your answer here..."
+        ></textarea>
+
+        <label class="page__create__form__label" for="tags-input">Tags:</label>
+        <input
+          class="page__create__form__input"
+          name="tags"
+          id="tags-input"
+          placeholder="Type your tags here..."
+        />
+
+        <button class="page__create__button">Create Card</button>
+      </form>
+      <ul role="list" class="card-list" data-js="cards"></ul>
     </main>
     <main class="page__profile hidden" data-js="profilePage">
       <h2 class="test">TEST-PROFILE</h2>
