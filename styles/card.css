@@ -1,0 +1,75 @@
+.page__home {
+  display: grid;
+  overflow-y: auto;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+  padding-top: 65px;
+}
+
+.card {
+  width: 320px;
+  background: #323232;
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: center;
+  border: solid #555555 1px;
+  box-shadow: 0 0 20px -5px black;
+  border-radius: 8px;
+  display: grid;
+  padding: 15px;
+  position: relative;
+}
+
+.card__question {
+  max-width: 250px;
+  justify-self: center;
+  margin: 10px 0;
+  line-height: 20px;
+}
+
+.answer__button {
+  background: #212121;
+  border: solid #555555 1px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px -1px #99cc33;
+  margin: 10px 0;
+  padding: 5px 20px;
+  color: white;
+  justify-self: center;
+}
+
+.tag__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  gap: 5px;
+}
+
+.tag {
+  list-style: none;
+  background: #212121;
+  margin: 0;
+  padding: 5px 0;
+  border-radius: 5px;
+  border: solid #555555 1px;
+}
+
+.bookmark {
+  background: transparent;
+  border: none;
+}
+
+.bookmark__icon {
+  width: 30px;
+  position: absolute;
+  right: 5px;
+  top: -10px;
+}
+
+.hidden {
+  display: none;
+}
