@@ -35,10 +35,10 @@ function renderCards(list) {
     <button class="bookmark" data-js="bookmark"><img class="bookmark__icon" src="./images/icon-pineapple.svg" alt="Bookmark Pineapple"></button>
     <p class="card__question">${element.question}</p>
       <button class="answer__button" data-js="answerButton">
-        <span class="hidden" data-js="answerSpanHidden">hide</span>
-        Toggle Answer
+        <span class="hidden" data-js="answerSpanHidden">Hide</span>
+        Answer
       </button>
-      <p class="hidden" data-js="answerText">${element.answer}</p>
+      <p class="card__answer hidden" data-js="answerText">${element.answer}</p>
       <ul class="tag__list" role="list">
         ${element.tags.map((tag) => `<li class='tag'>${tag}</li>`).join('')}
       </ul>

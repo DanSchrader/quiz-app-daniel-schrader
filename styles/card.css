@@ -8,7 +8,7 @@
 }
 
 .card {
-  width: 320px;
+  width: 340px;
   background: #323232;
   color: white;
   font-family: Roboto;
@@ -38,6 +38,10 @@
   padding: 5px 20px;
   color: white;
   justify-self: center;
+}
+
+.card__answer {
+  margin: 10px 0;
 }
 
 .tag__list {
