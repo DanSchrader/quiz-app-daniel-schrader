@@ -62,16 +62,16 @@
   border: solid #555555 1px;
 }
 
-.bookmark {
-  background: transparent;
-  border: none;
-}
-
-.bookmark__icon {
+.bookmark-icon {
   width: 30px;
   position: absolute;
-  right: 5px;
+  right: 10px;
   top: -10px;
+}
+
+.isBookmarked {
+  stroke: #99cc33;
+  stroke-width: 2px;
 }
 
 .hidden {

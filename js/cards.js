@@ -32,7 +32,7 @@ function renderCards(list) {
     cardElement.className = 'card';
     cardElement.setAttribute('data-js', 'card');
     cardElement.innerHTML = `
-    <button class="bookmark" data-js="bookmark"><img class="bookmark__icon" src="./images/icon-pineapple.svg" alt="Bookmark Pineapple"></button>
+    <img class="bookmark-icon" data-js="bookmarkIcon" src="./images/pineapple-icon.svg" alt="Bookmark Pineapple">
     <p class="card__question">${element.question}</p>
       <button class="answer__button" data-js="answerButton">
         <span class="hidden" data-js="answerSpanHidden">Hide</span>
